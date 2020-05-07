@@ -1,0 +1,62 @@
+---
+title: "R-course"
+author: "Mark Sutherland"
+date: "2020-05-07"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: readable
+    highlight: espresso
+---
+## Background
+something to do with stem width, height and stuff 
+
+### Objective
+learn to use this **thing**
+
+## Data
+
+knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
+
+```{r, echo=FALSE}
+knitr::read_chunk(here::here("analysis.R"))
+```
+
+```{r analysis set up}
+
+```
+
+```{r}
+summary(individual)
+```
+
+```{r}
+DT::datatable(individual)
+```
+
+### Analysis
+```{r remove na and liana data from analysis }
+
+```
+
+```{r analysis set factor levels }
+
+```
+
+```{r analysis-lm overal}
+
+```
+
+```{r analysis-lm-fig3-overall}
+
+```
+
+```{r analysis lm-growth}
+
+```
+
+```{r analysis lm-fig4-growth}
+
+```
+
